@@ -42,7 +42,7 @@ const Formularioadd = ({dispatch}) => {
             <input onChange={handleChange} id="diastolica" name="diastolica" type="number" value={diastolica} className="form-control" autoComplete="off" />
         </label>
         <label className="mx-1 d-grid gap-2">
-            <select class="form-select" aria-label="Default select example" id="toma" name="toma">
+            <select onChange={handleChange} class="form-select" aria-label="Default select example" id="toma" name="toma">
             <option selected>Selecciona la toma:</option>
             <option value="MAÑANA">Mañana</option>
             <option value="TARDE">Tarde</option>
