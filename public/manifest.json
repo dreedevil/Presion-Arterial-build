@@ -1,6 +1,6 @@
 {
-  "short_name": "Agenda App",
-  "name": "Agenda Reducer",
+  "short_name": "Bitacore Presion",
+  "name": "Bitacora de Presión Arterial",
   "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
